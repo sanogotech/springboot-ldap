@@ -1,3 +1,14 @@
+## IAM/SSO   WS02
+
+sudo wso2is-5.11.0
+
+/usr/lib64/wso2/wso2is/5.7.0/
+
+
+Conf/carbon.conf
+
+
+
 # springboot-ldap
 
 The goal of this project is to create a simple [`Spring Boot`](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) REST API, called `simple-service`, and secure it with `Spring Security LDAP` module.
@@ -38,6 +49,18 @@ Mark Cuban > username: mcuban, password: 123
 ```
 
 There are two ways to import those users: by running a script; or by using `phpldapadmin`
+
+
+Import
+Server: ldap-host File: ldap-mycompany-com.ldif 1,981 bytes (LDIF Import)
+
+Adding ou=groups,dc=mycompany,dc=com Success
+Adding cn=clients,ou=groups,dc=mycompany,dc=com Success
+Adding cn=employees,ou=groups,dc=mycompany,dc=com Success
+Adding ou=users,dc=mycompany,dc=com Success
+Adding uid=bgates,ou=users,dc=mycompany,dc=com Success
+Adding uid=mcuban,ou=users,dc=mycompany,dc=com Success
+Adding uid=sjobs,ou=users,dc=mycompany,dc=com Success
 
 ### Import users running a script
 
