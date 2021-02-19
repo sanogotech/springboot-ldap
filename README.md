@@ -1,9 +1,10 @@
 ## IAM/SSO   WS02
 
+-	https://wso2.com/identity-and-access-management/install/yum/get-started/
+
 sudo wso2is-5.11.0
 
 /usr/lib64/wso2/wso2is/5.7.0/
-
 
 Conf/carbon.conf
 
